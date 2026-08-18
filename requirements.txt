@@ -1,0 +1,17 @@
+# Core pipeline dependencies.
+torch
+transformers
+accelerate
+diffusers>=0.30.2
+opencv-python
+numpy
+pillow
+pyyaml
+requests
+
+# --- External model repos (not installable via pip) -------------------------
+# The following stages depend on third-party repos that must be cloned under
+# `external/` and installed/prepared per their own instructions (see README):
+#   - external/InstaOrder                    (occlusion-order reasoning)
+#   - external/SAMRefiner                    (mask refinement; needs Meta SAM + checkpoint)
+#   - external/FLUX-Controlnet-Inpainting    (only if --inpaint_backend=controlnet)

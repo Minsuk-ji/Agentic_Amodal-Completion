@@ -1,0 +1,30 @@
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# Runtime outputs
+results/
+*.egg-info/
+build/
+dist/
+
+# External cloned repos / checkpoints (see README "Setup")
+external/
+
+# Model weights
+*.pth
+*.pt
+*.tar
+*.ckpt
+*.safetensors
+
+# Local env
+.env
+.venv/
+venv/
+
+# Editor/OS
+.vscode/
+.idea/
+.DS_Store
