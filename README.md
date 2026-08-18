@@ -1,7 +1,7 @@
 # A Reasoning-Based Amodal Completion Method for Occluded Objects Using Vision-Language Models
 
 > Minsuk Ji, Namhyuk Ahn&dagger;
-> To appear in the Journal of KIISE (정보과학회논문지)
+> To appear in the Journal of KIISE
 >
 > &dagger; Corresponding author
 
