@@ -102,7 +102,7 @@ env var at wherever you keep them):
 
 | Dependency | Used by | Default location | Override |
 |---|---|---|---|
-| [InstaOrder](https://github.com/k8xu/amodal) + checkpoint | `occlusion/` | `external/InstaOrder` | `AGENTIC_AMODAL_INSTAORDER_DIR`, `AGENTIC_AMODAL_INSTAORDER_CKPT` |
+| [InstaOrder](https://github.com/SNU-VGILab/InstaOrder) + checkpoint | `occlusion/` | `external/InstaOrder` | `AGENTIC_AMODAL_INSTAORDER_DIR`, `AGENTIC_AMODAL_INSTAORDER_CKPT` |
 | SAMRefiner + [SAM ViT-H checkpoint](https://github.com/facebookresearch/segment-anything) | `segmentation/sam_refiner.py` | `external/SAMRefiner`, `external/checkpoints/sam_vit_h_4b8939.pth` | `AGENTIC_AMODAL_SAM_REFINER_ROOT`, `AGENTIC_AMODAL_SAM_CKPT` |
 | [FLUX-Controlnet-Inpainting](https://github.com/alimama-creative/FLUX-Controlnet-Inpainting) | `inpainting/` (only for `--inpaint_backend controlnet`) | `external/FLUX-Controlnet-Inpainting` | `AGENTIC_AMODAL_FLUX_MODULE_DIR` |
 
