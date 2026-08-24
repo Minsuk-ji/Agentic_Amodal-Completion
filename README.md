@@ -1,9 +1,8 @@
 # A Reasoning-Based Amodal Completion Method for Occluded Objects Using Vision-Language Models
 
-> Minsuk Ji, Namhyuk Ahn&dagger;
 > To appear in the Journal of KIISE
 >
-> &dagger; Corresponding author
+
 
 Existing occluded-object completion methods typically rely on fixed object categories or
 pre-trained recognition models, so they fail to detect out-of-distribution objects, and
