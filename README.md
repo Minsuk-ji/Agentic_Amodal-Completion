@@ -157,12 +157,6 @@ expansion plan, prompt, boundary verification logs) are written to
 Every field in `config.py::AmodalConfig` can also be set via an `AGENTIC_AMODAL_*`
 environment variable — see the file for the full list.
 
-### Ablations
-
-`AmodalConfig` exposes four boolean ablation flags (not wired to CLI flags — set them when
-constructing `AmodalConfig` in your own script) that swap individual stages for a naive
-baseline: `ablation_no_vlm_entity`, `ablation_unidirectional_instaorder`,
-`ablation_no_adaptive_canvas`, `ablation_plain_prompt`.
 
 ## License
 
